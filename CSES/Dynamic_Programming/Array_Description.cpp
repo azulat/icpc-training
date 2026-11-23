@@ -3,7 +3,7 @@
 using namespace std;
 using ull = unsigned long long;
 
-#define MOD 1000000007ull
+#define MOD 1000000007
 
 int main() {
     ios_base::sync_with_stdio(false);

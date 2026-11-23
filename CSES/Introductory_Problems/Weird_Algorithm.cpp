@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-using ll = long long;
 using ull = unsigned long long;
 
 int main() {
@@ -15,7 +14,7 @@ int main() {
 
     while (n > 1) {
         if (n % 2 == 0) {
-            n /= 2;
+            n = n / 2;
         } else {
             n = n * 3 + 1;
         }
